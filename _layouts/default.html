@@ -17,14 +17,13 @@
         <div class="container">
             <div class="header">
                 <ul class="nav nav-pills pull-right">
-                    <li> {{ page.name }}</li>
                     <li {% if page.name == 'index' %} class="active" {% endif %}><a href="index.html">Autor</a></li>
-                    <li><a href="by-hand.html">By hand</a></li>
-                    <li><a href="vector.html">Vector</a></li>
-                    <li><a href="logo.html">Logo</a></li>
-                    <li><a href="retouch.html">Retouch</a></li>
-                    <li><a href="flash.html">Flash</a></li>
-                    <li><a href="contacts.html">Contacts</a></li>
+                    <li {% if page.name == 'by-hand' %} class="active" {% endif %}><a href="by-hand.html">By hand</a></li>
+                    <li {% if page.name == 'vector' %} class="active" {% endif %}><a href="vector.html">Vector</a></li>
+                    <li {% if page.name == 'logo' %} class="active" {% endif %}><a href="logo.html">Logo</a></li>
+                    <li {% if page.name == 'retouch' %} class="active" {% endif %}><a href="retouch.html">Retouch</a></li>
+                    <li {% if page.name == 'flash' %} class="active" {% endif %}><a href="flash.html">Flash</a></li>
+                    <li {% if page.name == 'contacts' %} class="active" {% endif %}><a href="contacts.html">Contacts</a></li>
                 </ul>
                 <h3 class="text-muted"><a href="#">Polietilena</a></h3>
             </div>
