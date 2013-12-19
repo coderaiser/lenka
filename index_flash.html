@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<section>
+    <a id="img00" title="Flash film" class="fancybox-thumb" rel="fancybox-thumb" href="portfolio/flash/birthday.swf"></a>
+</section>	
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
+<script>
+  $('.fancybox,.fancybox-thumb').fancybox({
+    openEffect      : 'none',
+    closeEffect     : 'none',
+    autoSize        : false,
+    height          : window.innerHeight,
+    width           : window.innerWidth/0.75,
+    minWidth        : 0,
+    minHeight       : 0,
+    
+    helpers : {
+        overlay : {
+            css : {
+                'background'  : 'rgba(255, 255, 255, 0.1)'
+            }
+        }
+    }});
+</script>
