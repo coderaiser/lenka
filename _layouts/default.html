@@ -14,25 +14,26 @@
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
-        <div class="container">
-            <div class="header">
-                <ul class="nav nav-pills pull-right">
-                    <li {% if page.name == 'index' %} class="active" {% endif %}><a href="index.html">Autor</a></li>
-                    <li {% if page.name == 'by-hand' %} class="active" {% endif %}><a href="by-hand.html">By hand</a></li>
-                    <li {% if page.name == 'vector' %} class="active" {% endif %}><a href="vector.html">Vector</a></li>
-                    <li {% if page.name == 'logo' %} class="active" {% endif %}><a href="logo.html">Logo</a></li>
-                    <li {% if page.name == 'retouch' %} class="active" {% endif %}><a href="retouch.html">Retouch</a></li>
-                    <li {% if page.name == 'flash' %} class="active" {% endif %}><a href="flash.html">Flash</a></li>
-                    <li {% if page.name == 'contacts' %} class="active" {% endif %}><a href="contacts.html">Contacts</a></li>
-                </ul>
-                <h3 class="text-muted"><a href="#">Polietilena</a></h3>
-            </div>
-            <p class="view"><a href="https://github.com/polietilena">View My GitHub Profile</a></p>
-            {{ content }}
-            <div class="footer">
-                <p>&copy; Polietilena 2013</p>
-            </div>
+        <div class="header">
+            <ul class="nav nav-pills pull-right">
+                <li {% if page.name == 'index' %} class="active" {% endif %}><a href="index.html">Autor</a></li>
+                <li {% if page.name == 'by-hand' %} class="active" {% endif %}><a href="by-hand.html">By hand</a></li>
+                <li {% if page.name == 'vector' %} class="active" {% endif %}><a href="vector.html">Vector</a></li>
+                <li {% if page.name == 'logo' %} class="active" {% endif %}><a href="logo.html">Logo</a></li>
+                <li {% if page.name == 'retouch' %} class="active" {% endif %}><a href="retouch.html">Retouch</a></li>
+                <li {% if page.name == 'flash' %} class="active" {% endif %}><a href="flash.html">Flash</a></li>
+                <li {% if page.name == 'contacts' %} class="active" {% endif %}><a href="contacts.html">Contacts</a></li>
+            </ul>
+            <h3 class="text-muted"><a href="#">Polietilena</a></h3>
         </div>
+        <p class="view"><a href="https://github.com/polietilena">View My GitHub Profile</a></p>
+        <div class="container">
+            {{ content }}
+        </div>
+        <div class="footer">
+            <p>&copy; Polietilena 2013</p>
+        </div>
+    
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
