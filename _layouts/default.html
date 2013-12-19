@@ -17,7 +17,7 @@
         <div class="container">
             <div class="header">
                 <ul class="nav nav-pills pull-right">
-                    <li class="active"><a href="index.html">Autor</a></li>
+                    <li {% if page.name == 'index' %} class="active" {% endif %}><a href="index.html">Autor</a></li>
                     <li><a href="by-hand.html">By hand</a></li>
                     <li><a href="vector.html">Vector</a></li>
                     <li><a href="logo.html">Logo</a></li>
