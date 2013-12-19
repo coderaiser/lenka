@@ -17,7 +17,7 @@ Qualification: system publishing and printing production  engineer.
 *   Graphics software:*   Adobe Photoshop, Adobe Illustrator, CorelDraw, 3d Max, QuarkXpress.
 *   Office software:					 Word, Excel, Access
 *   Experience of working with people, ability to work in a team
-*   It is easy and quick to learn new for me
+*   It is easy and quick to learn new for me.
 
 # Languages
 
